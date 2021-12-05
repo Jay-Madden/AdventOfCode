@@ -3,7 +3,7 @@ using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
 using Microsoft.VisualBasic;
 
-namespace AoC.Day3;
+namespace AoC.Day4;
 
 public static class Program
 {
