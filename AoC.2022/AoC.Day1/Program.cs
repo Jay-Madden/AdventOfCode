@@ -1,4 +1,4 @@
-﻿var ansPart1 = File.ReadAllText("Day1.txt")
+﻿var ansPart1 = File.ReadAllText("input.txt")
     .Split($"{Environment.NewLine}{Environment.NewLine}")
     .Select(x => 
         x.Split(Environment.NewLine)
@@ -8,7 +8,7 @@
 
 Console.WriteLine($"Part 1: {ansPart1}");
 
-var ansPart2 = File.ReadAllText("Day1.txt")
+var ansPart2 = File.ReadAllText("input.txt")
     .Split($"{Environment.NewLine}{Environment.NewLine}")
     .Select(x => 
         x.Split(Environment.NewLine)
